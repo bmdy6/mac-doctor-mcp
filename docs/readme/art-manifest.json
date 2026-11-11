@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "accent": "#2f6f4e",
+  "files": [
+    {
+      "file": "hero-light.png",
+      "template": "showcase-banner",
+      "theme": "light",
+      "language": "en",
+      "kind": "fixture",
+      "captureId": "demo",
+      "inputFile": null,
+      "labels": {
+        "result": "Output"
+      },
+      "banner": {
+        "metrics": [
+          {
+            "field": "tool_count",
+            "value": 9,
+            "label": {
+              "en": "MCP tools",
+              "zh-CN": "MCP 工具"
+            }
+          },
+          {
+            "field": "planned_items",
+            "value": 1,
+            "label": {
+              "en": "Demo target",
+              "zh-CN": "演示目标"
+            }
+          },
+          {
+            "field": "restored_files",
+            "value": 3,
+            "label": {
+              "en": "Restored files",
+              "zh-CN": "恢复文件"
+            }
+          }
+        ],
+        "outputFields": [
+          "tool_count",
+          "moved_items",
+          "quarantined",
+          "restored_files",
+          "content_sha_matches"
+        ]
+      },
+      "sha256": "b9c04be32c4879dc6b4f5a3b5b27bf03fed5f5c071cee3e24c4d6b607a52fd20",
+      "bytes": 122770,
+      "cssWidth": 838,
+      "cssHeight": 390.1875,
+      "contentBounds": {
+        "left": 16,
+        "top": 16,
+        "right": 821,
+        "bottom": 374.1875
+      },
+      "contentRatio": 0.6682852575313946,
+      "contentArea": 218513.9921875,
+      "balanceRatio": 0.7053261568867889,
+      "minMainFontSize": 16,
+      "endpoints": [],
+      "checks": {
+        "overflow": "pass",
+        "fontSize": "pass",
+        "contrast": "pass",
+        "fields": "pass",
+        "mainText": "pass",
+        "density": "pass",
+        "balance": "pass",
+        "links": "pass",
+        "size": "pass"
+      },
+      "problems": {
+        "overflow": [],
+        "fontSize": [],
+        "contrast": [],
+        "fields": [],
+        "mainText": [],
+        "density": [],
+        "balance": [],
+        "links": []
+      },
+      "width": 838,
+      "height": 390.1875
+    },
+    {
+      "file": "hero-dark.png",
+      "template": "showcase-banner",
+      "theme": "dark",
+      "language": "en",
+      "kind": "fixture",
+      "captureId": "demo",
+      "inputFile": null,
+      "labels": {
+        "result": "Output"
+      },
+      "banner": {
+        "metrics": [
+          {
+            "field": "tool_count",
+            "value": 9,
+            "label": {
+              "en": "MCP tools",
+              "zh-CN": "MCP 工具"
+            }
+          },
+          {
+            "field": "planned_items",
+            "value": 1,
+            "label": {
+              "en": "Demo target",
+              "zh-CN": "演示目标"
+            }
+          },
+          {
+            "field": "restored_files",
+            "value": 3,
+            "label": {
+              "en": "Restored files",
+              "zh-CN": "恢复文件"
+            }
+          }
+        ],
+        "outputFields": [
+          "tool_count",
+          "moved_items",
+          "quarantined",
+          "restored_files",
+          "content_sha_matches"
+        ]
+      },
+      "sha256": "03d3508aee6f9d031392eb7fe895e269d781f0e298fa2d4b6c95166f75b8784d",
+      "bytes": 124007,
+      "cssWidth": 838,
+      "cssHeight": 390.1875,
+      "contentBounds": {
+        "left": 16,
+        "top": 16,
+        "right": 821,
+        "bottom": 374.1875
+      },
+      "contentRatio": 0.6682852575313946,
+      "contentArea": 218513.9921875,
+      "balanceRatio": 0.7053261568867889,
+      "minMainFontSize": 16,
+      "endpoints": [],
+      "checks": {
+        "overflow": "pass",
+        "fontSize": "pass",
+        "contrast": "pass",
+        "fields": "pass",
+        "mainText": "pass",
+        "density": "pass",
+        "balance": "pass",
+        "links": "pass",
+        "size": "pass"
+      },
+      "problems": {
+        "overflow": [],
+        "fontSize": [],
+        "contrast": [],
+        "fields": [],
+        "mainText": [],
+        "density": [],
+        "balance": [],
+        "links": []
+      },
+      "width": 838,
+      "height": 390.1875
+    },
+    {
+      "file": "hero-light.zh-CN.png",
+      "template": "showcase-banner",
+      "theme": "light",
+      "language": "zh-CN",
+      "kind": "fixture",
+      "captureId": "demo",
+      "inputFile": null,
+      "labels": {
+        "result": "输出"
+      },
+      "banner": {
+        "metrics": [
+          {
+            "field": "tool_count",
+            "value": 9,
+            "label": {
+              "en": "MCP tools",
+              "zh-CN": "MCP 工具"
+            }
+          },
+          {
+            "field": "planned_items",
+            "value": 1,
+            "label": {
+              "en": "Demo target",
+              "zh-CN": "演示目标"
+            }
+          },
+          {
+            "field": "restored_files",
+            "value": 3,
+            "label": {
+              "en": "Restored files",
+              "zh-CN": "恢复文件"
+            }
+          }
+        ],
+        "outputFields": [
+          "tool_count",
+          "moved_items",
+          "quarantined",
+          "restored_files",
+          "content_sha_matches"
+        ]
+      },
+      "sha256": "261350725a9aab95aecd73e904cd838fab2bffa39703ccdedc4f5a36dc19765e",
+      "bytes": 116008,
+      "cssWidth": 838,
+      "cssHeight": 390.1875,
+      "contentBounds": {
+        "left": 16,
+        "top": 16,
+        "right": 821,
+        "bottom": 374.1875
+      },
+      "contentRatio": 0.6306096479608474,
+      "contentArea": 206194.9296875,
+      "balanceRatio": 0.6091857710960847,
+      "minMainFontSize": 16,
+      "endpoints": [],
+      "checks": {
+        "overflow": "pass",
+        "fontSize": "pass",
+        "contrast": "pass",
+        "fields": "pass",
+        "mainText": "pass",
+        "density": "pass",
+        "balance": "pass",
+        "links": "pass",
+        "size": "pass"
+      },
+      "problems": {
+        "overflow": [],
+        "fontSize": [],
+        "contrast": [],
+        "fields": [],
+        "mainText": [],
+        "density": [],
+        "balance": [],
+        "links": []
+      },
+      "width": 838,
+      "height": 390.1875
+    },
+    {
+      "file": "hero-dark.zh-CN.png",
+      "template": "showcase-banner",
+      "theme": "dark",
+      "language": "zh-CN",
+      "kind": "fixture",
+      "captureId": "demo",
+      "inputFile": null,
+      "labels": {
+        "result": "输出"
+      },
+      "banner": {
+        "metrics": [
+          {
+            "field": "tool_count",
+            "value": 9,
+            "label": {
+              "en": "MCP tools",
+              "zh-CN": "MCP 工具"
+            }
+          },
+          {
+            "field": "planned_items",
+            "value": 1,
+            "label": {
+              "en": "Demo target",
+              "zh-CN": "演示目标"
+            }
+          },
+          {
+            "field": "restored_files",
+            "value": 3,
+            "label": {
+              "en": "Restored files",
+              "zh-CN": "恢复文件"
+            }
+          }
+        ],
+        "outputFields": [
+          "tool_count",
+          "moved_items",
+          "quarantined",
+          "restored_files",
+          "content_sha_matches"
+        ]
+      },
+      "sha256": "212c6907daaae151d72f94a7072221d70142390581a98e70b72c08b0a9a2619f",
+      "bytes": 117268,
+      "cssWidth": 838,
+      "cssHeight": 390.1875,
+      "contentBounds": {
+        "left": 16,
+        "top": 16,
+        "right": 821,
+        "bottom": 374.1875
+      },
+      "contentRatio": 0.6306096479608474,
+      "contentArea": 206194.9296875,
+      "balanceRatio": 0.6091857710960847,
+      "minMainFontSize": 16,
+      "endpoints": [],
+      "checks": {
+        "overflow": "pass",
+        "fontSize": "pass",
+        "contrast": "pass",
+        "fields": "pass",
+        "mainText": "pass",
+        "density": "pass",
+        "balance": "pass",
+        "links": "pass",
+        "size": "pass"
+      },
+      "problems": {
+        "overflow": [],
+        "fontSize": [],
+        "contrast": [],
+        "fields": [],
+        "mainText": [],
+        "density": [],
+        "balance": [],
+        "links": []
+      },
+      "width": 838,
+      "height": 390.1875
+    }
+  ]
+}
