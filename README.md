@@ -11,7 +11,7 @@
 - **内存**：读取 `memory_pressure -Q`、`vm_stat`、`sysctl vm.swapusage`，显示物理内存、swap、风险等级，以及按 Claude Code、Codex、EGO、Hermes、Cursor 等应用归类的进程。检测 cwd 位于已删除 `.worktrees/<name>` 的进程，只提示，不杀进程。
 - **存储**：显示指定目录下最大的直接子项和卷剩余空间。安装了 [Mole](https://github.com/tw93/Mole) 且支持 JSON 分析时，额外调用 `mo analyze --json <root>` 返回候选，保留 `scan_status`。不完整扫描的大小只是下界；候选不等于可以删除。
 - **硬件（可选）**：安装了 [siltop](https://github.com/CLoaKY233/siltop) 时，读取 `siltop report today --json` 和 `siltop --json` 单次实时快照。未安装或命令失败会返回 `available: false` 和原因；部分成功的数据仍保留。不会安装 agent、启动服务或运行压力测试。
-- **已有事务工具**：生成清理计划、移入隔离区、回滚、中断恢复及到期清空。v0.1 在 Mac 上验证只读采集；事务测试仅在临时目录运行，真实文件清理尚未验收。
+- **清理事务**：生成清理计划、移入隔离区、回滚、中断恢复及到期清空。已在真机验证：单个缓存目录执行后回滚，文件数与整树内容 SHA 一致；一次 14 项、约 16.7 GiB 的包缓存和安装镜像清理已移入隔离区。
 
 Linux 采集器仅供开发和测试，内存读取 `/proc/meminfo`，硬件显示不支持；本项目面向 macOS。
 
