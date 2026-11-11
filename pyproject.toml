@@ -1,0 +1,27 @@
+[project]
+name = "mac-doctor-mcp"
+version = "0.1.0"
+description = "MCP server: AI inspects memory and storage, plans a cleanup, applies it reversibly"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "bmdy6"}]
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=1.2,<2",
+]
+
+[project.urls]
+Repository = "https://github.com/bmdy6/mac-doctor-mcp"
+Issues = "https://github.com/bmdy6/mac-doctor-mcp/issues"
+
+[project.scripts]
+mac-doctor-mcp = "mac_doctor_mcp.server:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

@@ -1,0 +1,1 @@
+"""mac-doctor-mcp."""

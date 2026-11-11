@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+.local-release/
+结果.md
+DONE
+.DS_Store
