@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "**内存压力与进程分组**：读取 pressure、swap，按应用归类进程。",
+    "factIds": [
+      "memory"
+    ],
+    "readme": "README.md"
+  },
+  {
+    "claim": "**先计划再执行**：保存逐项目标、风险、大小与确认码。",
+    "factIds": [
+      "plan"
+    ],
+    "readme": "README.md"
+  },
+  {
+    "claim": "**存储候选**：扫描直接子项；Mole 可作为可选分析源。",
+    "factIds": [
+      "storage"
+    ],
+    "readme": "README.md"
+  },
+  {
+    "claim": "**同卷隔离与回滚**：移动文件，遇到原位置冲突拒绝覆盖。",
+    "factIds": [
+      "rollback"
+    ],
+    "readme": "README.md"
+  },
+  {
+    "claim": "**可选硬件快照**：读取 siltop；未安装时返回原因。",
+    "factIds": [
+      "hardware"
+    ],
+    "readme": "README.md"
+  },
+  {
+    "claim": "**中断恢复**：journal 记录移动状态，恢复后再继续。",
+    "factIds": [
+      "recover"
+    ],
+    "readme": "README.md"
+  }
+]

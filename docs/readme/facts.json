@@ -1,0 +1,50 @@
+[
+  {
+    "id": "memory",
+    "claim": "Read memory pressure and grouped processes",
+    "value": "def inspect_memory(",
+    "source": "src/mac_doctor_mcp/server.py:33"
+  },
+  {
+    "id": "storage",
+    "claim": "Inspect storage without cleanup",
+    "value": "def inspect_storage(",
+    "source": "src/mac_doctor_mcp/server.py:45"
+  },
+  {
+    "id": "hardware",
+    "claim": "Optional hardware snapshot",
+    "value": "def inspect_hardware(",
+    "source": "src/mac_doctor_mcp/server.py:53"
+  },
+  {
+    "id": "plan",
+    "claim": "Create a confirmation-gated cleanup plan",
+    "value": "def plan_cleanup(",
+    "source": "src/mac_doctor_mcp/server.py:62"
+  },
+  {
+    "id": "rollback",
+    "claim": "Restore quarantined files",
+    "value": "def rollback(",
+    "source": "src/mac_doctor_mcp/server.py:85"
+  },
+  {
+    "id": "recover",
+    "claim": "Recover interrupted operations",
+    "value": "def recover(",
+    "source": "src/mac_doctor_mcp/server.py:94"
+  },
+  {
+    "id": "policy",
+    "claim": "Validate cleanup paths",
+    "value": "def check(",
+    "source": "src/mac_doctor_mcp/policy.py:70"
+  },
+  {
+    "id": "demo",
+    "claim": "Count live tools and verify a synthetic round trip",
+    "value": "len(tools.tools)",
+    "source": "docs/readme/showcase/demo.py:44"
+  }
+]

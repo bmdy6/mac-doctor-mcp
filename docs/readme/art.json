@@ -1,0 +1,65 @@
+{
+  "images": [
+    {
+      "id": "hero",
+      "template": "showcase-banner",
+      "captureId": "demo",
+      "fixture": true,
+      "title": "mac-doctor-mcp",
+      "subtitle": {
+        "en": "Turn Mac cleanup into reversible file transactions.",
+        "zh-CN": "Mac 清理，可确认、可回滚。"
+      },
+      "eyebrow": {
+        "en": "LOCAL STDIO MCP",
+        "zh-CN": "本地 STDIO MCP"
+      },
+      "description": {
+        "en": "Inspect memory and storage. Review a plan, quarantine, then restore.",
+        "zh-CN": "先看内存与存储，再审阅计划、隔离文件，最后验证恢复。"
+      },
+      "integrations": [
+        "MCP",
+        "macOS",
+        "Python"
+      ],
+      "metrics": [
+        {
+          "field": "tool_count",
+          "label": {
+            "en": "MCP tools",
+            "zh-CN": "MCP 工具"
+          }
+        },
+        {
+          "field": "planned_items",
+          "label": {
+            "en": "Demo target",
+            "zh-CN": "演示目标"
+          }
+        },
+        {
+          "field": "restored_files",
+          "label": {
+            "en": "Restored files",
+            "zh-CN": "恢复文件"
+          }
+        }
+      ],
+      "outputFields": [
+        "tool_count",
+        "moved_items",
+        "quarantined",
+        "restored_files",
+        "content_sha_matches"
+      ],
+      "caption": {
+        "en": "Real stdio MCP run on disposable synthetic files, 2026-11-11.",
+        "zh-CN": "2026-11-11，临时合成文件上的真实 stdio MCP 运行；未清理用户文件。"
+      },
+      "readmes": {
+        "README.md": "zh-CN"
+      }
+    }
+  ]
+}
