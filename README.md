@@ -8,13 +8,20 @@
 
 [快速开始](#快速开始) · [能力](#能力) · [工作流程](#工作流程) · [完整参考](docs/REFERENCE.md)
 
+## 快速开始
+
 ```sh
 uvx --from git+https://github.com/bmdy6/mac-doctor-mcp mac-doctor-mcp
 ```
 
-面向使用 AI agent 的 Mac 开发者：知道内存和磁盘发生了什么，把“删掉试试”换成能检查、能撤回的文件事务。
+需要 macOS、Python 3.12+ 和 [uv](https://docs.astral.sh/uv/)。首次安装需要网络。
+
+这是等待客户端连接的 stdio 服务。把命令加入 MCP 客户端后，先问：“读取内存压力，解释 swap 与进程分组，先不要清理。”
+[Claude Code、Codex 配置和完整工具参数](docs/REFERENCE.md#mcp-配置)可直接查阅。
 
 ## 为什么用它
+
+面向使用 AI agent 的 Mac 开发者：知道内存和磁盘发生了什么，把“删掉试试”换成能检查、能撤回的文件事务。
 
 | 手动处理 | 用 mac-doctor-mcp |
 | --- | --- |
@@ -33,16 +40,7 @@ uvx --from git+https://github.com/bmdy6/mac-doctor-mcp mac-doctor-mcp
 ## 看它运行
 
 横幅来自附带的[可重放演示](docs/readme/showcase/demo.py)：MCP 实际返回 **9 个工具**；创建 **1 个目录、3 个文件**，执行计划、隔离与回滚，恢复后的内容 SHA 与原始内容一致。
-这些是这次合成样例的结果，不是清理性能或真实磁盘释放量。
-
-## 快速开始
-
-需要 macOS、Python 3.12+ 和 [uv](https://docs.astral.sh/uv/)。首次安装需要网络。
-
-
-
-这是等待客户端连接的 stdio 服务。把命令加入 MCP 客户端后，先问：“读取内存压力，解释 swap 与进程分组，先不要清理。”
-[Claude Code、Codex 配置和完整工具参数](docs/REFERENCE.md#mcp-配置)可直接查阅。
+这些是图中合成样例的结果，不是清理性能或真实磁盘释放量。
 
 ## 工作流程
 
@@ -59,7 +57,7 @@ flowchart LR
 
 ## 可信度
 
-- 本次 `uv run pytest -q`：**55 passed，1 skipped**；跳过的是仅供 Linux 的采集用例。
+- 开发测试命令：`uv run pytest -q`。
 - 以当前用户权限运行，不使用 sudo；只读检查不会结束进程。
 - 清理计划也会写本地元数据；readOnlyHint 不是操作系统权限控制。
 
