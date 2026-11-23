@@ -1,3 +1,5 @@
+低维护：作为作品展示，Issue 可能不及时回复
+
 <!-- readme-from-code:banner:hero:start -->
 <h1><picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/readme/hero-dark.zh-CN.png">
